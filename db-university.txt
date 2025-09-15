@@ -13,3 +13,7 @@ FROM `students` WHERE YEAR (`date_of_birth`) < 1995 (1000?)
 4.
 SELECT `name`, `period`
 FROM `courses`WHERE (`period`) = "I semestre" AND (`year`) = 1 (286)
+
+5.
+SELECT `course_id`, `hour`
+FROM `exams`WHERE hour (`hour`) >= 14 AND DATE(`date`) = "2020-06-20"
