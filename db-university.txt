@@ -83,4 +83,8 @@ Via Elga 7 Piano 4	1
 
 3. Calcolare la media dei voti di ogni appello d'esame
 
+SELECT AVG (`vote`) AS `average vote`
+FROM `exam_student` 
+GROUP BY `exam_id`
+
 4. Contare quanti corsi di laurea ci sono per ogni dipartimento
