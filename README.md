@@ -15,3 +15,10 @@ Pensiamo a quali entità (tabelle) creare per il nostro database e cerchiamo poi
 
 Utilizzare https://www.drawio.com/ per la creazione dello schema.
 Esportare quindi il diagramma in jpg e caricarlo nella repo.
+
+# PARTE 2
+
+Dopo aver creato un nuovo database nel vostro MySQL Workbench e aver importato lo schema allegato, eseguite le query del file allegato.
+
+Cosa consegnare?
+Dopo aver testato le vostre query con MySQL Workbench, riportatele in un file txt e caricatelo nella vostra repo. (E' la stessa di venerdì)
