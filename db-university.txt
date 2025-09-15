@@ -17,3 +17,7 @@ FROM `courses`WHERE (`period`) = "I semestre" AND (`year`) = 1 (286)
 5.
 SELECT `course_id`, `hour`
 FROM `exams`WHERE hour (`hour`) >= 14 AND DATE(`date`) = "2020-06-20"
+
+6.
+SELECT `name`, `level`
+FROM `degrees`WHERE (`level`) = "magistrale"
