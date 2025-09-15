@@ -5,3 +5,7 @@ FROM `students` WHERE YEAR (`date_of_birth`) = 1990; (160)
 2.
 SELECT `name`, `cfu`
 FROM `courses` WHERE (`cfu`) > 10 (479)
+
+3.
+SELECT `name`, `date_of_birth`
+FROM `students` WHERE YEAR (`date_of_birth`) < 1995 (1000?)
